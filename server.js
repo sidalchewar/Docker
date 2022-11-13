@@ -19,5 +19,5 @@ var onAboutUs=function(req, res){
 
 app.get("/",onDefault); 
 app.get("/aboutus",onAboutUs);
-var server=app.listen(9000);
-console.log("Server is running on port 9000");
+var server=app.listen(100);
+console.log("Server is running on port 100");
